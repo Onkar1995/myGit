@@ -1,8 +1,17 @@
 Class HelloWorld{
 
+
+
+void myMethod(){
+
+System.out.println("Hello world....welcome to git!!");
+
+}
+
+
 public static void main()
 {
- System.out.println("Hello world....welcome to git!!");
+
 
 }
 
