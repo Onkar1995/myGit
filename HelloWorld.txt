@@ -2,7 +2,7 @@ Class HelloWorld{
 
 
 
-void myMethod(){
+static void myMethod(){
 
 System.out.println("Hello world....welcome to git!!");
 
@@ -11,8 +11,10 @@ System.out.println("Hello world....welcome to git!!");
 
 public static void main()
 {
+   HelloWorld hw=  new  HelloWorld();
 
-  HelloWorld.myMethod();
+
+   hw.myMethod();
 
 }
 
